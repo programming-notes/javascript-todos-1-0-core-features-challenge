@@ -1,13 +1,13 @@
 # JavaScript Todos
- 
-## Learning Competencies 
 
-* Write a function that returns an object with todo list funtionality.
+## Learning Competencies
+
+* Write a function that returns an object with todo list functionality.
 * Implement an API in plain JavaScript
 
-## Summary 
+## Summary
 
-This challenge should be done entierly in the JavaScript console within the chrome developer tools. 
+This challenge should be done entirely in the JavaScript console within the chrome developer tools.
 
 This challenge is based on the ruby todos challenge in phase 1
 
@@ -16,7 +16,7 @@ This challenge is designed to introduce you to JavaScript the language before we
 
 ### Release 1
 
-Impliment the following API:
+Implement the following API:
 
 ```js
 var groceryList = createTodoList();
@@ -30,7 +30,7 @@ groceryList.add('milk');
 groceryList.tasks //-> ['bread', 'cheese', 'milk']
 
 // the list function should console.log() each task.
-groceryList.list(); 
+groceryList.list();
 //> bread
 //> cheese
 //> milk
@@ -41,7 +41,7 @@ groceryList.list();
 groceryList.indexOf('cheese'); //-> 1
 
 // the remove function should take an index and remove the
-// task corrisponding to that index
+// task corresponding to that index
 groceryList.remove(1);
 
 // the above remove should remove the 'cheese' task
@@ -71,15 +71,15 @@ groceryList.tasks //-> [
 // {description: 'milk', completed: false},
 // ]
 
-groceryList.list(); //-> 
-//> {description: 'bread', completed: false} 
+groceryList.list(); //->
+//> {description: 'bread', completed: false}
 //> {description: 'cheese', completed: false}
 //> {description: 'milk', completed: false}
 
 groceryList.indexOf('cheese'); //-> 1
 
 // we now need a new 'get' function that takes the index
-// and returns the corrisponding task object
+// and returns the corresponding task object
 groceryList.get(1); //-> {description: 'cheese', completed: false}
 
 // remove should still work
@@ -91,7 +91,7 @@ groceryList.list(); //->
 // complete should mark the task as completed
 groceryList.complete(0);
 groceryList.list(); //-> [
-// {description: 'bread', completed: true}, 
-// {description: 'milk', completed: false}, 
+// {description: 'bread', completed: true},
+// {description: 'milk', completed: false},
 // ];
 ```
