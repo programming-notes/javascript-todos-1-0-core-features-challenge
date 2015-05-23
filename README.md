@@ -9,9 +9,8 @@
 
 This challenge should be done entirely in the JavaScript console within the chrome developer tools.
 
-This challenge is based on the ruby todos challenge in phase 1
-
-This challenge is designed to introduce you to JavaScript the language before we introduce features of the web browser.
+This challenge is based on the ruby todos challenge in phase 1, and is designed 
+to introduce you to the JavaScript language before the web browser (and the DOM).
 
 
 ### Release 1
